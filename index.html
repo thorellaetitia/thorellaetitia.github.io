@@ -5,17 +5,21 @@
   <title>mon premier cv</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
   <link href = "style.css" rel="stylesheet" type="text/css" />
+  <!--balise pour gerer le responsive sur les mobiles  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
   <header>
+    <!--bouton fenetre présentation  -->
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
       Qui suis-je?
     </button>
+    <!--fin bouton fenetre présentation  -->
   </header>
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-2">
-        <nav class="sticky-top">
+        <!-- debut barre de navigation verticale -->
           <div class="navbar">
             <ul class="nav flex-column">
               <li class="nav-item"><br><br>
@@ -35,43 +39,61 @@
               </li>
             </ul>
           </div>
+          <!--fin barre de navigation verticale  -->
         </nav>
       </div>
+      <!--debut card <body>
+      </body>  -->
       <div class="col-lg-10">
           <div class="collapse" id="collapsecontact">
             <div class="card card-body">
               <h1>Me contacter</h1>
             </div>
-            <p>Thorel Laêtitia, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="pr-2">
+              <p>Thorel Laêtitia, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
           </div>
           <div class="collapse" id="collapseexperience">
             <div class="card card-body">
               <h1>Mon expérience</h1></div>
+            <div class="pr-2">
           <ul>
-            <li><p><img src="/home/thorel/CVnum-rique/image/logogirpi.png" alt="logo girpi" width="3%" height="6%"/> Groupe Aliaxis Chargée de Merchandising DIY Janvier 2009-Août 2018</li></p>
-            <li><p><img src="/home/thorel/CVnum-rique/image/logogirpi.png" alt="logo girpi" width=3% height="6%" /> Groupe Aliaxis Responsable adjointe Service Interne des Ventes France Nov 2003-Déc 2008</li></p>
-            <li><p><img src="/home/thorel/CVnum-rique/image/exxon-mobil-logo-vector-400x400.png" width=3% height="6%" />
+            <li><p><img src="image/logogirpi.png" alt="logo girpi" width="3%" height="6%"/> Groupe Aliaxis Chargée de Merchandising DIY Janvier 2009-Août 2018</li></p>
+            <li><p><img src="image/logogirpi.png" alt="logo girpi" width="3%"" height="6%" /> Groupe Aliaxis Responsable adjointe Service Interne des Ventes France Nov 2003-Déc 2008</li></p>
+            <li><p><img src="image/exxon-mobil-logo-vector-400x400.png" width="10%"" height="15%" /> Assistante administrative janv à Mai 2003</li></p>
+            <li><p><img src="image/quille-construction-squarelogo-1407866427820.png" alt="photo logo" width="7%"" height="12%" /> Assistante bilingue Anglais de Mai à Sept 2003</li></p>
+            <li><p><img src="image/geodislogo.png" alt="photo logo geodis" width="7%" height="12%" /> Assistante commerciale Import-Export Sept 2000 à Aôut 2002</li></p>
           </div>
+        </div>
           <div class="collapse" id="collapsecompetences">
             <div class="card card-body">
-              <h1>Mes compétences</h1></div>
+              <h1>Mes compétences</h1>
+            </div>
+            <div class="pr-2">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
           </div>
           <div class="collapse" id="collapsecursus">
             <div class="card card-body">
               <h1>Mon cursus</h1></div>
+            <div class="pr2"
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
           </div>
           <div class="collapse" id="collapsecentresdinterets">
           <div class="card card-body">
             <h1>Mes centres d'intérêts</h1></div>
+            <div class="pr-2"
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
           </div>
+          <!--fin de card body  -->
+          <!--debut du modal fenetre d'ouverture de présentation  -->
           <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header" id="profilphoto">
-                  <img src="/home/thorel/CVnum-rique/image/picto-profil-02.png" alt="profilphoto" />
+                  <img src="image/picto-profil-02.png" alt="profilphoto" />
                   <h1 class="h5 laetitia" id="exampleModalLabel"></h1>
                   <p>Développeuse Web, Infographiste</p>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -83,7 +105,7 @@
                   Mon idéal : Développer des projets Web de A à Z.
                   Un goût prononcé pour le secteur culturel et artistique.
                 </div>
-
+                <!--fin du modal -->
                 </div>
               </div>
             </div>

@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url(/home/thorel/CVnum-rique/image/arriereplan1.jpg);
+  background-image: url(image/arriereplan1.jpg);
   background-repeat:no-repeat;
   background-size: cover;
 }
@@ -37,4 +37,4 @@ article {
 p {
   text-align: justify;
   color : #007bff;
-  -webkit-filter: blur(0.2px);
+  }
