@@ -3,17 +3,14 @@
 }
 
 .nav-item {
-  background-color: #d8d8d8
+  background-color: #2e2e2e
 }
 
 .navbar {
-  height: 180vh;
-  width: 20%;
-  margin : 0;
-  padding : 0;
-  font-size: 2Opx;
-  position: fixed;
-  overflow:auto;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  overflow: auto;
   text-align: left;
   font-weight: bold;
 }
@@ -24,7 +21,6 @@ article {
 
 .col-lg-2 {
   padding-left: 0;
-  background-color:#2e2e2e;
 }
 
 .col-lg-10 {
