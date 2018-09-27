@@ -38,3 +38,12 @@ p {
   text-align: justify;
   color : #007bff;
   }
+
+figure {
+  background-color: white;
+}
+
+#formControlRange {
+  width: 85px;
+  
+}
