@@ -54,8 +54,8 @@ figure {
 
 }
 
-li {
-  text-decoration: none;
+ul {
+  list-style-type: none;
 }
 
 #formControlRange {
@@ -76,7 +76,6 @@ footer {
   padding-right: 20px;
 }
 
-.btn btn-primary {
-  font-size: 2rem;
-  text-align: center;
+.btn {
+  font-size: 1.5rem;
 }
