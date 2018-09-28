@@ -7,6 +7,8 @@ body {
   background-image: url(image/arriereplan1.jpg);
   background-repeat:no-repeat;
   background-size: cover;
+  position: relative;
+  z-index: 80;
 }
 
 .nav-item {
@@ -35,12 +37,25 @@ article {
 }
 
 p {
+  font-size: 1.3rem;
+  text-shadow: 5px;
+  font-weight: bold;
   text-align: justify;
   color : #007bff;
   }
 
 figure {
-  background-color: white;
+  color: #007bff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
+  position: absolute;
+  z-index: 120;
+
+}
+
+li {
+  text-decoration: none;
 }
 
 #formControlRange {
@@ -49,5 +64,19 @@ figure {
 }
 
 #profilphoto {
+  text-align: center;
+}
+
+.langues {
+  background-color: white;
+}
+
+footer {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.btn btn-primary {
+  font-size: 2rem;
   text-align: center;
 }
